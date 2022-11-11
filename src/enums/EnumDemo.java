@@ -1,9 +1,5 @@
 package enums;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
 enum Beer{
     KF, KO, RC, FO;
 }
@@ -20,9 +16,6 @@ public class EnumDemo {
             System.out.println(beer2 +"----"+beer2.ordinal());
 
         }
-
-
-
 
 
        /* // stream api
